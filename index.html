@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+
+  <head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TriviaGam</title>
+    <!--css-->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+  </head>
+
+  <body>
+    <div id="container">
+      <h1>Totally Trivial Trival!</h1>
+
+      <button class="button" id="start-button"> Start</button>
+      
+      <div id="questionnaire">
+        <div class="counting" id="time-remaining">Time Remaining: <span class="counting" id="timer"></span> Seconds</div>
+        <br/>
+        <div id="question-1">
+          <h3>Which country has beaver as the national emblem?</h3>
+          <br/>
+          <input type="radio" id="q-one" value="wrong" name="q1">Turkey
+          <input type="radio" id="q-one" value="wrong" name="q1">Peru
+          <input type="radio" id="q-one" value="correct" name="q1">Canada
+          <input type="radio" id="q-one" value="wrong" name="q1">USA
+        </div>
+        <br/><br/>
+        <div id="question-2">
+          <h3>Which is the hottest planet?</h3>
+          <br/>
+          <input type="radio" class="q-two" value="wrong" name="q2">Mercury
+          <input type="radio" class="q-two" value="correct" name="q2">Venus
+          <input type="radio" class="q-two" value="wrong" name="q2">Saturn
+          <input type="radio" class="q-two" value="wrong" name="q2">Jupiter
+        </div>
+        <br/><br/>
+        <div id="question-3">
+          <h3>What are the tallest trees on Earth?</h3>
+          <br/>
+          <input type="radio" class="q-three" value="wrong" name="q3">The Coast Douglas Fir
+          <input type="radio" class="q-three" value="wrong" name="q3">The Giant Sequoia
+          <input type="radio" class="q-three" value="wrong" name="q3">The Sitka Spruce
+          <input type="radio" class="q-three" value="correct" name="q3">The Coast Redwood
+        </div>
+        <br/><br/>
+        <div id="question-4">
+          <h3>Which war caused the greatest loss of life for Americans?</h3>
+          <br/>
+          <input type="radio" class="q-four" value="wrong" name="q4">WW1
+          <input type="radio" class="q-four" value="wrong" name="q4">WW2
+          <input type="radio" class="q-four" value="wrong" name="q4">Vietnam War
+          <input type="radio" class="q-four" value="correct"name="q4">American Civil War
+        </div>
+        <br/><br/>
+        <div id="question-5">
+          <h3>Which popular Disney movie featured the song, "Circle of Life"?</h3>
+          <br/>
+          <input type="radio" class="q-five" value="wrong" name="q5">Aladdin
+          <input type="radio" class="q-five" value="wrong" name="q5">Hercules
+          <input type="radio" class="q-five" value="wrong" name="q5">Mulan
+          <input type="radio" class="q-five" value="correct" name="q5">The Lion King
+        </div>
+        <br/><br/>
+        <div id="question-6">
+          <h3>What is the world's most venomous fish?</h3>
+          <br/>
+          <input type="radio" class="q-six" value="wrong" name="q6">Scorpion fish
+          <input type="radio" class="q-six" value="wrong" name="q6">Lion fish
+          <input type="radio" class="q-six" value="correct" name="q6">Stonefish
+          <input type="radio" class="q-six" value="wrong" name="q6">Toadfish
+        </div>
+        <br/><br/>
+        <div id="question-7">
+          <h3>What is the planets lowest country?</h3>
+          <br/>
+          <input type="radio" class="q-seven" value="correct" name="q7">Republic of the Maldives
+          <input type="radio" class="q-seven" value="wrong" name="q7">Republic of Mauritius
+          <input type="radio" class="q-seven" value="wrong" name="q7">Holland
+          <input type="radio" class="q-seven" value="wrong" name="q7">The Seychelles
+        </div>
+        <br/><br/>
+        <div id="question-8">
+          <h3>In what century did the Black Death devastate Europe?</h3>
+          <br/>
+          <input type="radio" class="q-eight" value="wrong" name="q8">12th
+          <input type="radio" class="q-eight" value="wrong" name="q8">13th
+          <input type="radio" class="q-eight" value="correct" name="q8">14th
+          <input type="radio" class="q-eight" value="wrong" name="q8">16th
+        </div>
+        <br/>
+        <button class="button" id="done-button">Done</button>
+      </div>
+
+      <div id="results-page">
+        <h2>All Done!</h2>
+        <br/>
+        <p>Correct Answers: <span id="correct-score"></span></p>
+        <p>Incorrect Answers: <span id="incorrect-score"></span></p>
+        <p>Unanswered: <span id="unanswered-score"></span></p>
+        </div>
+      </div>
+
+      </div>
+    </div>
+
+
+    <!-- jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Script -->
+    <script src="assets/javascript/app.js"></script>
+
+  </body>
+
+</html>
