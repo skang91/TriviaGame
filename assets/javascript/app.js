@@ -1,5 +1,5 @@
 
-//first page
+//First page
 $("#questionnaire").hide();
 $("#results-page").hide();
 
@@ -12,9 +12,9 @@ var wrongCount = 0;
 var unanswered = 0;
 
 
-//functions
+//Functions
 
-//for timer
+//Timer
 function countdownTimer(){
     intervalId = setInterval(decrement, 1000);
 }
