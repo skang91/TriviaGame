@@ -2,7 +2,7 @@
 
 Basic Quiz (Timed Form)
 
-![screenshot](Screenshot.png)
+![screenshot](screenshot.png)
 
 -It is all multiple choice.
 -The player can only choose one answer per quesitons.
