@@ -1,7 +1,8 @@
 # TriviaGame
-Week 5 Homework
 
 Basic Quiz (Timed Form)
+
+![screenshot](Screenshot.png)
 
 -It is all multiple choice.
 -The player can only choose one answer per quesitons.
